@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Info",
+    "pages/Weather",
+    "pages/WeatherDetail",
+    "pages/view/Lights",
+    "pages/view/AirCondition",
+    "pages/view/Curtain"
+  ]
+}

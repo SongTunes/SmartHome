@@ -1,0 +1,18 @@
+{
+  "cloudDBZoneName": "cloudDBZoneName1",
+  "objectTypeName": "SmartCurtain",
+  "objects": [
+    {
+      "deviceId": 1,
+      "deviceName": "MyCurtain",
+      "userId": "18801030758",
+      "isOpened": false
+    },
+    {
+      "deviceId": 2,
+      "deviceName": "CurtainCurtain",
+      "userId": "15736227295",
+      "isOpened": false
+    }
+  ]
+}

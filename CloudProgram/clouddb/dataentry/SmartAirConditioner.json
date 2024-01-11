@@ -1,0 +1,22 @@
+{
+  "cloudDBZoneName": "cloudDBZoneName1",
+  "objectTypeName": "SmartAirConditioner",
+  "objects": [
+    {
+      "deviceId": 1,
+      "deviceName": "空调",
+      "userId": "12345",
+      "isOn": true,
+      "mode": "Cool",
+      "temperature": 25
+    },
+    {
+      "deviceId": 2,
+      "deviceName": "",
+      "userId": "11111",
+      "isOn": false,
+      "mode": "Cool",
+      "temperature": 26
+    }
+  ]
+}

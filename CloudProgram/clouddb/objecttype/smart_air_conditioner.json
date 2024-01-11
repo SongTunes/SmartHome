@@ -1,0 +1,100 @@
+{
+  "permissions": [
+    {
+      "role": "World",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Authenticated",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Creator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Administrator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "deviceName",
+      "indexList": [
+        { "fieldName": "deviceName", "sortType": "ASC" }
+      ]
+    },
+    {
+      "indexName": "userId",
+      "indexList": [
+        { "fieldName": "userId", "sortType": "ASC" }
+      ]
+    }
+  ],
+  "objectTypeName": "SmartAirConditioner",
+  "fields": [
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceId",
+      "notNull": true,
+      "belongPrimaryKey": true,
+      "fieldType": "IntAutoIncrement"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceName",
+      "notNull": false,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "userId",
+      "notNull": true,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "isOn",
+      "notNull": false,
+      "defaultValue": false,
+      "belongPrimaryKey": false,
+      "fieldType": "Boolean"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "mode",
+      "notNull": false,
+      "defaultValue": "Cool",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "temperature",
+      "notNull": false,
+      "defaultValue": 25,
+      "belongPrimaryKey": false,
+      "fieldType": "Integer"
+    }
+  ]
+}

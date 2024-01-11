@@ -1,0 +1,84 @@
+{
+  "permissions": [
+    {
+      "role": "World",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Authenticated",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Creator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Administrator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "deviceName",
+      "indexList": [
+        { "fieldName": "deviceName", "sortType": "ASC" }
+      ]
+    },
+    {
+      "indexName": "userId",
+      "indexList": [
+        { "fieldName": "userId", "sortType": "ASC" }
+      ]
+    }
+  ],
+  "objectTypeName": "SmartCurtain",
+  "fields": [
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceId",
+      "notNull": true,
+      "belongPrimaryKey": true,
+      "fieldType": "IntAutoIncrement"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceName",
+      "notNull": false,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "userId",
+      "notNull": true,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "isOpened",
+      "notNull": false,
+      "defaultValue": false,
+      "belongPrimaryKey": false,
+      "fieldType": "Boolean"
+    }
+  ]
+}

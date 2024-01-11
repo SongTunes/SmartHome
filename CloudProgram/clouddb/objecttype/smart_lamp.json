@@ -1,0 +1,108 @@
+{
+  "permissions": [
+    {
+      "role": "World",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Authenticated",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Creator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    },
+    {
+      "role": "Administrator",
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ]
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "deviceId",
+      "indexList": [
+        { "fieldName": "deviceId", "sortType": "ASC" }
+      ]
+    },
+    {
+      "indexName": "userId",
+      "indexList": [
+        { "fieldName": "userId", "sortType": "ASC" }
+      ]
+    }
+  ],
+  "objectTypeName": "SmartLamp",
+  "fields": [
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceId",
+      "notNull": true,
+      "belongPrimaryKey": true,
+      "fieldType": "IntAutoIncrement"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "userId",
+      "notNull": true,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "deviceName",
+      "notNull": false,
+      "defaultValue": "",
+      "belongPrimaryKey": false,
+      "fieldType": "String"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "isOn",
+      "notNull": false,
+      "defaultValue": false,
+      "belongPrimaryKey": false,
+      "fieldType": "Boolean"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "coordX",
+      "notNull": false,
+      "defaultValue": 0.0,
+      "belongPrimaryKey": false,
+      "fieldType": "Double"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "coordY",
+      "notNull": false,
+      "defaultValue": 0.0,
+      "belongPrimaryKey": false,
+      "fieldType": "Double"
+    },
+    {
+      "isNeedEncrypt": false,
+      "fieldName": "isDeleted",
+      "notNull": false,
+      "defaultValue": false,
+      "belongPrimaryKey": false,
+      "fieldType": "Boolean"
+    }
+  ]
+}

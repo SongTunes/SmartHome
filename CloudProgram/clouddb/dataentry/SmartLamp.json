@@ -1,0 +1,24 @@
+{
+  "cloudDBZoneName": "cloudDBZoneName1",
+  "objectTypeName": "SmartLamp",
+  "objects": [
+    {
+      "deviceId": 1,
+      "userId": "18801030758",
+      "deviceName": "myLamp",
+      "isOn": false,
+      "coordX": 0.0,
+      "coordY": 0.0,
+      "isDeleted": false
+    },
+    {
+      "deviceId": 2,
+      "userId": "15736227295",
+      "deviceName": "LampLamp",
+      "isOn": false,
+      "coordX": 0.0,
+      "coordY": 0.0,
+      "isDeleted": false
+    }
+  ]
+}
