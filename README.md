@@ -1,21 +1,28 @@
 # A Smart Home App Based on HarmonyOS
 ## App Display
 ### Login with Phone Number
-![phone](https://github.com/SongTunes/SmartHome/blob/main/doc/phone.png)
-### Weather
-![weather](https://github.com/SongTunes/SmartHome/blob/main/doc/weather.gif)
-![weather-d](https://github.com/SongTunes/SmartHome/blob/main/doc/weather-d.gif)
-### Smart Lamp 
-![lamp](https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif)
-### Smart Air-conditioner
-![air-c](https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif)
-### Smart Curtain
-![curtain](https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif)
 
-## Environment
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/phone.png" width="210px">
+
+### Weather
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather.png" width="210px">
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather-d.png" width="210px">
+
+### Smart Lamp 
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif" width="210px">
+
+### Smart Air-conditioner
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif" width="210px">
+
+### Smart Curtain
+<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif" width="210px">
+
+## Development
 ### Language 
-- ArkUI, ArkTS (API type: stageMode)
+- ArkUI, ArkTS
+  - API type: stageMode
 - Node.js
+  - App services are developed based on [Huawei Serverless](https://developer.huawei.com/consumer/cn/agconnect/serverless). We use the Cloud Function and Cloud Database services provided by Huawei. 
 ### Simulation
 - DevEco Studio
   - Compile SDK: HarmonyOS, 3.1.0 (API 9)
