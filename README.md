@@ -36,3 +36,11 @@
   - ROM: 3 GB
   - #CPU: 4
   - Camera: emulated
+  
+## Code Contributors
+> in alphabetical order
+* Modi Cui
+* Wancong Gao
+* Song Tang
+* Jialu Xu
+* Wentong Zhang
