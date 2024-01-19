@@ -1,16 +1,16 @@
 # A Smart Home App Based on HarmonyOS
 ## App Display
 ### Login with Phone Number
-![phone](https://github.com/SongTunes/SmartHome/doc/phone.png)
+![phone](https://github.com/SongTunes/SmartHome/blob/main/doc/phone.png)
 ### Weather
-![weather](https://github.com/SongTunes/SmartHome/doc/weather.gif)
-![weather-d](https://github.com/SongTunes/SmartHome/doc/weather-d.gif)
+![weather](https://github.com/SongTunes/SmartHome/blob/main/doc/weather.gif)
+![weather-d](https://github.com/SongTunes/SmartHome/blob/main/doc/weather-d.gif)
 ### Smart Lamp 
-![lamp](https://github.com/SongTunes/SmartHome/doc/lamp.gif)
+![lamp](https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif)
 ### Smart Air-conditioner
-![air-c](https://github.com/SongTunes/SmartHome/doc/air-c.gif)
+![air-c](https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif)
 ### Smart Curtain
-![curtain](https://github.com/SongTunes/SmartHome/doc/curtain.gif)
+![curtain](https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif)
 
 ## Environment
 ### Language 
