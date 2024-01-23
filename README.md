@@ -1,21 +1,26 @@
 # A Smart Home App Based on HarmonyOS
 ## App Display
 ### Login with Phone Number
-
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/phone.png" width="210px">
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/phone.png" width="210px"> -->
+<img src="./doc/phone.png" width="210px">
 
 ### Weather
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather.png" width="210px">
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather-d.png" width="210px">
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather.png" width="210px"> -->
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/weather-d.png" width="210px"> -->
+<img src="./doc/weather.png" width="210px">
+<img src="./doc/weather-d.png" width="210px">
 
 ### Smart Lamp 
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif" width="210px">
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif" width="210px"> -->
+<img src="./doc/lamp.png" width="210px">
 
 ### Smart Air-conditioner
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif" width="210px">
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif" width="210px"> -->
+<img src="./doc/air-c.png" width="210px">
 
 ### Smart Curtain
-<img src="https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif" width="210px">
+<!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif" width="210px"> -->
+<img src="./doc/curtain.png" width="210px">
 
 ## Development
 ### Language 
