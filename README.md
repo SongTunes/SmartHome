@@ -12,15 +12,15 @@
 
 ### Smart Lamp 
 <!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/lamp.gif" width="210px"> -->
-<img src="./doc/lamp.png" width="210px">
+<img src="./doc/lamp.gif" width="210px">
 
 ### Smart Air-conditioner
 <!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/air-c.gif" width="210px"> -->
-<img src="./doc/air-c.png" width="210px">
+<img src="./doc/air-c.gif" width="210px">
 
 ### Smart Curtain
 <!-- <img src="https://github.com/SongTunes/SmartHome/blob/main/doc/curtain.gif" width="210px"> -->
-<img src="./doc/curtain.png" width="210px">
+<img src="./doc/curtain.gif" width="210px">
 
 ## Development
 ### Language 
